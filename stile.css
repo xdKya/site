@@ -1,0 +1,63 @@
+*{
+    /* border: solid black */
+}
+
+
+body{
+    font-family: "oldlondon";
+    background-color: #A3E1D2;
+
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    background-color: #76ebdb;
+    border: 2px solid  #000000;
+    padding-left: 20px;
+    
+}
+h1{
+    font-size: 80px;
+}
+
+
+h1,p{
+   align-self: center;
+   padding-left: 20px;
+}
+
+
+.grid{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+ 
+@font-face {
+    font-family: oldlondon;
+    src: url("OldLondon.ttf");
+}
+
+img{
+  width: 200;
+  height: 200px;
+  
+
+}
+
+h2{
+    
+    font-size: 80px;
+    align-self: center;
+   
+}
+
+.iten{
+    border:solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+    margin-top: 10px;
+    background-color: rgba(240, 248, 255, 0.324);
+}
